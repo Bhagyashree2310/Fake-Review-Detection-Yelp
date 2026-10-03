@@ -1,6 +1,6 @@
 # Fake Review Detection in Online Restaurant Reviews Using Machine Learning and Reviewer Behaviour Analytics
 
-Fraud Detection Analytics (FDA) project. A machine-learning model scores Yelp restaurant reviews for how suspicious they are, so human moderators can check the riskiest ones first. Uses **real** (not synthetic) data and **classic ML on structured data only** (no text/NLP).
+Fraud Detection Analytics (FDA) project focused on identifying potentially deceptive Yelp restaurant reviews. A machine-learning model scores reviews based on how suspicious they appear, helping human moderators prioritize reviews for further checking.
 
 ## Results (held-out test set, 2,483 reviews)
 
