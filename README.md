@@ -16,7 +16,6 @@ Fraud Detection Analytics (FDA) project. A machine-learning model scores Yelp re
 Final model: tuned **Gradient Boosting** (`HistGradientBoostingClassifier`) on 18 review-level and reviewer-profile features.
 Numbers can differ in the third decimal with different library versions.
 
-![Final evaluation](images/04_final_evaluation.png)
 
 ## Models compared (reviewer-grouped 5-fold CV + test set)
 
@@ -35,8 +34,6 @@ Numbers can differ in the third decimal with different library versions.
 4. **Blind spot:** the model catches ~99.6% of fakes from new accounts (1-2 reviews) but only ~56% from reviewers with more than 10 reviews.
 5. **Best use is ranking for human moderators.** On this ~50% fake sample precision is 0.85; at a realistic 13% fake rate it would be ~0.45.
 
-![What detects fakes](images/03_ablation.png)
-![Feature importance](images/06_importance.png)
 
 ## Method
 
